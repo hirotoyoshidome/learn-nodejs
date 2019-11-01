@@ -34,3 +34,15 @@ node server.js
 ```
 npm init
 ```
+
+* install & create lock file
+
+```
+npm install
+```
+
+* install with lock file
+
+```
+npm ci
+```
