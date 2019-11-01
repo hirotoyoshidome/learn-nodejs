@@ -19,7 +19,7 @@ node server.js
 http://localhost:3000/
 ```
 
-# docker
+## docker
 
 ```
 docker build -t my_node:latest .
