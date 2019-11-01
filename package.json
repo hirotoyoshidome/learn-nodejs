@@ -1,0 +1,20 @@
+{
+  "name": "learn-nodejs",
+  "version": "1.0.0",
+  "description": "``` sudo apt install -y nodejs npm sudo npm install n -g sudo n stable sudo apt purge -y nodejs npm exec $SHELL -l node -v ```",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hirotoyoshidome/learn-nodejs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hirotoyoshidome/learn-nodejs/issues"
+  },
+  "homepage": "https://github.com/hirotoyoshidome/learn-nodejs#readme"
+}
