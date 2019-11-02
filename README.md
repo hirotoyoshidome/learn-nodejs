@@ -46,3 +46,11 @@ npm install
 ```
 npm ci
 ```
+
+* postscript package info to packeage.json
+
+```
+npm install {packageName} --save
+or
+npm i {packageName} -S
+```
