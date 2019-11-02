@@ -68,3 +68,7 @@ npm run {taskName}
 ex)
 npm run start
 ```
+
+
+## MEMO
+* browserify refer node_modules library. 
