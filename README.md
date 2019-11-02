@@ -54,3 +54,9 @@ npm install {packageName} --save
 or
 npm i {packageName} -S
 ```
+
+* install package throgh path
+
+```
+npm install -g {packageName}
+```
