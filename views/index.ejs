@@ -1,0 +1,17 @@
+<html>
+  <head>
+    <title>sample code</title>
+  </head>
+  <body>
+    <p>test</p>
+    <script>
+      var xhr = new XMLHttpRequest();
+      xhr.open('GET', "/api/test");
+      xhr.addEventListener("load", function(e) {
+        var list = JSON.parse(xhr.responseText);
+        console.log(list);
+      });
+      xhr.send();
+    </script>
+  </body>
+</html>
