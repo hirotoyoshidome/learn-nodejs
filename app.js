@@ -42,5 +42,6 @@ app.get("/api/test/:id", function(req, res, next) {
 
 // get : /
 app.get("/", function(req, res, next) {
-  res.render("index", {});
+  var data = {"text": "test value"};
+  res.render("index", data);
 });
