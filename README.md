@@ -60,3 +60,11 @@ npm i {packageName} -S
 ```
 npm install -g {packageName}
 ```
+
+* run build(scripts tasks)
+
+```
+npm run {taskName}
+ex)
+npm run start
+```
